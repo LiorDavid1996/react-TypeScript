@@ -38,6 +38,7 @@ function Home() {
                 typeof(value) =="string"?
                 <td>{value}</td>:
                 <td>{value.first+" "+ value.last}</td>
+               
               ))}
             </tr>
           ))}
